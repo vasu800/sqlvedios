@@ -40,11 +40,11 @@
     <div class="video-container">
         <!-- Replace the src attribute with your video links -->
         <div class="video-item">
-            <iframe src="[https://www.youtube.com/embed/VIDEO_ID1](https://screenapp.io/app/#/shared/ad0105a2-8d4f-490d-91a2-43ff119f0fc8)" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://screenapp.io/app/#/shared/ad0105a2-8d4f-490d-91a2-43ff119f0fc8" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div class="video-item">
-            <iframe src="[https://www.youtube.com/embed/VIDEO_ID2](https://screenapp.io/app/#/shared/6627582a-994c-4fd8-aa03-35a5832ad97b)" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=Von4PVDS35Y&t=349s" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <!-- Add more video items as needed -->
