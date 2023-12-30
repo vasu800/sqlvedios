@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +19,7 @@
     <script src="script.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,3 +36,65 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+function validateLogin() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    // Simple validation, replace with actual authentication logic
+    if (username === 'user' && password === 'password') {
+        window.location.href = 'dashboard.html';
+    } else {
+        alert('Invalid username or password. Try again.');
+    }
+}
+
+function logout() {
+    // Simple logout function, you might want to clear session storage or perform additional actions
+    window.location.href = 'index.html';
+}
+
