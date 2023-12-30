@@ -2,52 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=3.0">
-    <title>Video Links</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        .video-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .video-item {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            overflow: hidden;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .video-item iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Video Links</h1>
-
-    <div class="video-container">
-        <!-- Replace the src attribute with your video links -->
-        <div class="video-item">
-            <iframe src="https://screenapp.io/app/#/shared/ad0105a2-8d4f-490d-91a2-43ff119f0fc8" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div class="video-item">
-            <iframe src="https://www.youtube.com/watch?v=Von4PVDS35Y&t=349s" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <!-- Add more video items as needed -->
+    <div class="container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="button" onclick="validateLogin()">Login</button>
+        </form>
     </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to the Dashboard</h2>
+        <p>This is a secure area. Only logged-in users can access this page.</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
