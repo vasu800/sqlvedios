@@ -7,48 +7,48 @@
     <link rel="stylesheet" href="styles.css">
     <title>Your Website - Home</title>
     <style>
-    body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+        body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 <style>
 </head>
 <body>
